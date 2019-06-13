@@ -1,3 +1,9 @@
+import csv
+import os
+import numpy as np
+
+fie = os.path.join("Resources", "budget_data.csv")
+
 #make lists and variables
 months = []
 profit_loss = []
